@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    display: flex;
+    align-items: center;
+}
+.image {
+    margin: 0px;
+    height: 100vh;
+    width: 80vw;
+    background-image: url('https://picsum.photos/800/1200');
+    background-size: cover;
+}
+.heading {
+    margin-left: 4em;
+    width: 75%;
+    margin-bottom: 2em;
+
+}
+h2 {
+    font-weight: 500;
+    
+}
+form {
+    padding-left: 4em;
+    padding-top: 1em;
+    background-color: fff;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);
+}
+ul {
+    margin-top: 1em;
+    list-style: none;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: .5em;
+    padding-bottom: 1em;
+}
+.textIn{
+    padding: .5em;
+    border-radius: .5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+label {
+    font-size: .8em;
+   letter-spacing: .2em;
+}
